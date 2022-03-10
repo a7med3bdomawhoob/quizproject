@@ -1,0 +1,197 @@
+
+.bg-green
+{
+    background-color: green;
+}
+
+.home
+{
+    background-image: url(img/slider/slider-01.jpg);
+    position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+li a:hover
+{
+    text-decoration-line: underline ;
+    
+    
+
+}
+
+.card:hover img
+{
+    background-color: aqua;
+    transition-duration: 0.5s;
+}
+
+.gray
+{
+    background-color: gainsboro;
+}
+
+
+.pixels
+{
+    width: 200px;
+}
+
+.cursolhome
+{
+    background-image: url(img/slider/slider-01.jpg);
+    background-size: cover;
+    position: center center;
+    background-attachment: fixed;
+}
+
+.opacitty
+{
+    background-color: rgb(0, 0, 255,0.3);
+}
+
+
+.line
+{
+    width: 60px;
+    height: 7px;
+    color: blue;
+    background-color: brown;
+}
+
+
+
+.end
+{
+    right: 20px;
+}
+
+/* .card a img
+{
+    transition-duration: 1s;
+}
+.card a img:hover .card a img
+{
+    transform: scale(1.5);
+} */
+
+
+.card a img
+{
+    transition-duration: 1.5s;
+    transition-property: all;
+}
+
+.card a img:hover
+{
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+
+
+
+.title h2
+{
+    font-size: 60px;
+    z-index: -1;
+    color: white;
+}
+.title h3
+{
+    z-index: 9999;
+    color: black;
+}
+
+
+
+
+.allicons p
+{
+    
+}
+
+.cir
+{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.cir:hover 
+{
+    
+    background-color: blue ;
+}
+
+
+.cir:hover i
+{
+    color: black;
+}
+
+.hit
+{
+    height: 50px;
+}
+
+
+.opc
+{
+    
+    background-color: rgb(0, 0, 255,0.3);
+}
+
+
+.opcimage
+{
+   background-image: url(img/slider/slider-01.jpg);
+   background-size: cover;
+   height: 100vh;
+}
+
+.footer
+{
+    /* z-index: 1000000000000; */
+}
+
+.bg-blue
+{
+    background-color: blue;
+    color: white;
+}
+
+
+.animationtext::after
+{
+    content: "";
+    animation-name: animationtext;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
+
+
+@keyframes animationtext
+{
+    0%{content: "M";}
+    10%{content: "Mor";}
+    20%{content: "Mor";}
+    30%{content: "Morg";}
+    40%{content: "Morga";}
+    50%{content: "Morgan";}
+    60%{content: "Morgan f";}
+    70%{content: "Morgan fr";}
+    80%{content: "Morgan fre";}
+    85%{content: "Morgan free";}
+    90%{content: "Morgan freem";}
+    95%{content: "Morgan freema";}
+    100%{content: "Morgan freeman";}
+
+
+
+}
